@@ -31,5 +31,11 @@ body {
     background-color: var(--secundario);
 }
 .navegacion-principal{
-    margin-top: 100px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
+ .navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+ }
